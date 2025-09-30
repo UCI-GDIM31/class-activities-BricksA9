@@ -1,7 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Hello World!
+Added cat movement and changed the view to first person :D
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
