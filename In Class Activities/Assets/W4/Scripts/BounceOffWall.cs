@@ -12,6 +12,7 @@ public class BounceOffWall : MonoBehaviour
         {
             Vector3 meToCenter = (-transform.position).normalized;
             _rigidBody.AddForce(meToCenter * _bounceForce, ForceMode.Impulse);
+            
         }
     }
 }

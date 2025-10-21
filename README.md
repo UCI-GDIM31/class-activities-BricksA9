@@ -24,8 +24,21 @@ The skin will tell the skinwalker how to behave. The traits of the skin (color, 
 The methods change the behavior, while the variables change the appearance of the skin.
 2. There's no upper limit to how many times the ball can increase in brightness.
 
-
 ### W4
+
+Line 5: a variable for movement speed that can be changed in the component (inside the inspector)\
+Line 22: it grabs the difference in how much the cat has moved since the last frame\
+Line 25: Actually changes the location (the z axis) of the cat
+
+Line 17: The initialization of a variable that stores whether the cat is on the ground or not. Used to prevent unwanted double-jumping\
+Line 28: an if statement to see whether there is an input from the space key (from the physical keyboard) and if cat is on the ground. If both are true then the code block inside runs.\
+Line 32: line that updates the status of the cat, in terms of its groundedness, so that it’s no longer ‘on the ground’ because it’s currently jumping.
+
+Table #14
+What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?\
+We added rigidbodies to the cat and the ball, and Is Trigger was checked on the goal.
+IF your game did not work perfectly the first time you tested it, talk about what you had to fix.\
+We didn’t have the rigidbody on the cat, and didn’t have the Is Trigger checked for the goal.
 
 
 ### W5
