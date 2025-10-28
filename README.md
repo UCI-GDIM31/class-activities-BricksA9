@@ -42,6 +42,10 @@ We didn’t have the rigidbody on the cat, and didn’t have the Is Trigger checked 
 
 
 ### W5
+Activity 1:\
+Question: getcomponent() – is it like a universal function that can be called like 
+class.object.function() in c++?
+Yes–but it must only be within an object that has the script with the component you’re looking for.
 
 
 ### W6
