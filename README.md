@@ -47,6 +47,14 @@ Question: getcomponent() – is it like a universal function that can be called li
 class.object.function() in c++?
 Yes–but it must only be within an object that has the script with the component you’re looking for.
 
+Activity 2:\
+What member variable(s) does this class need?\
+The class needs a variable to track the target object's location, and one that can be customized in the 
+What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?\
+It only needs the Start and Update methods from Unity.
+What should the method(s) do?\
+The Start method grabs the Navmesh component from the Deer object, and the Update method constantly grabs the position of the target object and calls the
+Navmesh agent to move the deer towards the target object.
 
 ### W6
 
