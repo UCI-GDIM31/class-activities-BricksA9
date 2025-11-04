@@ -57,7 +57,20 @@ The Start method grabs the Navmesh component from the Deer object, and the Updat
 Navmesh agent to move the deer towards the target object.
 
 ### W6
+Activity 2:\
+https://docs.google.com/document/d/1lmiUEvktjmcBWJmVSkGWRt156K5VDO01tHGCc-V7qak/edit?tab=t.0
+assigned to Unity Game Engine\
 
+What member variables does this class need?
+batSpeed, isChasing, playerLocation, minimumStoppingDistance
+
+What methods does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+It needs a startBatChase and stopBatChase method, as well as a collision method. It also needs a Start and Update method
+What should the method(s) do?
+startBatChase: makes bats begin to chase the player
+stopBatChase: stops the bats from chasing the player
+start method: makes bats start chasing (this is only really for step 1)
+update method: checks each frame to see if the bat is at the player's location, and if so it makes the bat stop chasing. otherwise it makes the bat continue to chase the player
 
 ### W7
 
