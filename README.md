@@ -73,7 +73,13 @@ start method: makes bats start chasing (this is only really for step 1)
 update method: checks each frame to see if the bat is at the player's location, and if so it makes the bat stop chasing. otherwise it makes the bat continue to chase the player
 
 ### W7
+Activity 1:\ 
+https://docs.google.com/document/d/1sbxFwadVoEb2vnPq9DS7bAOivA7REpEKIh1f_uew8pQ/edit?tab=t.0
+assigned to environment\
 
+Activity 2:\
+The code was using Vector3 for making the rat move forward (Vector3 changes the global axes), 
+when it should've been transform.forward (transform changes the local axes).
 
 ### W8
 
